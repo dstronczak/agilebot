@@ -12,7 +12,7 @@ var AgileBot = require('../lib/agilebot');
  *  BOT_DB_PATH: the path of the SQLite database used by the bot
  *  BOT_NAME: the username you want to give to the bot within your organisation.
  */
-var token = process.env.BOT_API_KEY || 'xoxb-147988334544-FIX9R0989PZSa7MD91wReTUT';
+var token = process.env.BOT_API_KEY || '{ENTER YOUR API KEY HERE}';
 var dbPath = process.env.BOT_DB_PATH || "data/agilebot.db";
 var name = process.env.BOT_NAME || "agilebot";
 

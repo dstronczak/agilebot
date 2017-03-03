@@ -1,31 +1,23 @@
 {
-  "name": "norrisbot",
+  "name": "agile",
   "version": "1.0.5",
-  "description": "a Slack bot that kicks asses (roundhouse-kicks to be accurate...)",
+  "description": "Agile bot that has some things to say.",
   "keywords": [
     "Slack",
     "bot",
-    "Chuck Norris",
-    "jokes"
+    "Agile"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lmammino/norrisbot"
-  },
-  "bugs": {
-    "url": "https://github.com/lmammino/norrisbot/issues"
-  },
-  "main": "lib/norrisbot.js",
+
+  "main": "lib/agilebot.js",
   "bin": {
-    "norrisbot": "bin/bot.js"
+    "agilebot": "bin/bot.js"
   },
   "scripts": {
-    "start": "node bin/bot.js",
-    "test": "node_modules/.bin/xo data/jokesFetcher.js bin/bot.js lib/norrisbot.js"
+    "start": "node bin/bot.js"
   },
   "author": {
-    "name": "Luciano Mammino",
-    "email": "lucianomammino@gmail.com"
+    "name": "Dawid Stronczak",
+    "email": "dstronczak@guidewire.com"
   },
   "license": "MIT",
   "engines": {
@@ -37,19 +29,5 @@
     "request": "^2.60.0",
     "slackbots": "^0.3.0",
     "sqlite3": "^3.1.8"
-  },
-  "devDependencies": {
-    "xo": "^0.5.2"
-  },
-  "xo": {
-    "space": 4,
-    "rules": {
-      "camelcase": [
-        2,
-        {
-          "properties": "never"
-        }
-      ]
-    }
   }
 }
