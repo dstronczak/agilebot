@@ -6,11 +6,12 @@ Agile Bot is a simple slack bot written for pure fun. It will react to some keyw
 
 ### Configuration
 
-In `bot.js` there are 3 config parameters that should be set appriatelly:
+In `bot.js` there are 34config parameters that should be set appriatelly:
 
 * `token` - has to contain a valid API Key here for the slack emvironment you would like to use
 * `dbPath` - path of the SQLite database used by the bot (is set to some sample out of the bot db by default)
 * `name` - the username you want to give to the bot within your organisation ("agilebot" by default)
+* `chanceOfReaction` - number from 0 to 100 which specifies what is the chance that the bot will react to a message if a keyword is detected (by default the value is 100 - the bot always responds)
 
 ### Installing
 

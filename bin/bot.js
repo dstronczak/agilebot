@@ -15,11 +15,14 @@ var AgileBot = require('../lib/agilebot');
 var token = process.env.BOT_API_KEY || '{ENTER YOUR API KEY HERE}';
 var dbPath = process.env.BOT_DB_PATH || "data/agilebot.db";
 var name = process.env.BOT_NAME || "agilebot";
+var chanceOfReaction = process.env.BOT_CHANCE_OF_REACTION || 100;
 
 var agilebot = new AgileBot({
     token: token,
     dbPath: dbPath,
-    name: name
+    name: name,
+    chanceOfReaction: chanceOfReaction
+
 });
 
 agilebot.run();
