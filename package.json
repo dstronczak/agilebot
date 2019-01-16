@@ -7,7 +7,6 @@
     "bot",
     "Agile"
   ],
-
   "main": "lib/agilebot.js",
   "bin": {
     "agilebot": "bin/bot.js"
@@ -17,17 +16,17 @@
   },
   "author": {
     "name": "Dawid Stronczak",
-    "email": "dstronczak@guidewire.com"
+    "email": "dstronczak@gmail.com"
   },
   "license": "MIT",
   "engines": {
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "async": "^1.4.1",
-    "progress": "^1.1.8",
+    "async": "^2.0.0",
+    "progress": "^2.0.0",
     "request": "^2.60.0",
-    "slackbots": "^0.3.0",
-    "sqlite3": "^3.1.8"
+    "slackbots": "^1.0.0",
+    "sqlite3": "^4.0.0"
   }
 }
