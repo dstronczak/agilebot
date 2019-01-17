@@ -11,6 +11,7 @@ var AgileBot = require('../lib/agilebot');
  *      token at the following url: https://<yourorganization>.slack.com/services/new/bot (Mandatory)
  *  BOT_DB_PATH: the path of the SQLite database used by the bot
  *  BOT_NAME: the username you want to give to the bot within your organisation.
+ *  BOT_CHANCE_OF_REACTION: Number from 0 to 100 defining a chance that the bot will react to a message.
  */
 var token = process.env.BOT_API_KEY || '{ENTER YOUR API KEY HERE}';
 var dbPath = process.env.BOT_DB_PATH || "data/agilebot.db";
